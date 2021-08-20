@@ -54,7 +54,7 @@
  **6. Once you are logged in again, run the following commands**<br />
  ```
  cd mailapp/installer_script
- `chmod +x ./postinstall.sh`<br />
+ chmod +x ./postinstall.sh
  ./postinstall.sh | tee postinstall.txt
  ```
  &nbsp;&nbsp;   **Note: at the end of this command, you will be given your email and password to login.**<br />
