@@ -42,6 +42,7 @@
 
 **5. Once the unzip is complete, run the following commands to set up your webserver**<br />
 &nbsp;  `cd installer_script`<br />
+&nbsp;  `chmod +x ./install.sh`<br />
 &nbsp;  `./install.sh | tee out.txt`<br />
 
  &nbsp;&nbsp;   **Note: This will take a while and server will shut down once this is compplete.** <br />
@@ -53,6 +54,7 @@
  **6. Once you are logged in again, run the following commands**<br />
  ```
  cd mailapp/installer_script
+ `chmod +x ./postinstall.sh`<br />
  ./postinstall.sh | tee postinstall.txt
  ```
  &nbsp;&nbsp;   **Note: at the end of this command, you will be given your email and password to login.**<br />
